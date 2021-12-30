@@ -1,0 +1,82 @@
+:root {
+    --radius: 5px;
+    --padding: 10px;
+  }
+  
+  .container {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: auto auto auto; */
+
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: 2fr 1.5fr 1fr; */
+
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: .5fr 3.5fr 1fr; */
+
+    grid-template-columns: auto auto auto autp;
+    grid-template-rows: .5fr 1.8fr 1.5fr 1fr;
+    grid-gap: 0.5rem;
+    height: 100vh;
+    grid-template-areas: 
+    "content1 content1 content1 content1"
+    "content2 content3 content3 content3"
+    "content2 content4 content5 content6"
+    "content2 content7 content7 content7"
+    ;
+  }
+  
+  #content1 {
+    background: #c9268d;
+    border-radius: var(--radius);
+    padding-top: var(--padding);
+    grid-area: content1;
+  }
+ 
+  #content2 {
+    background: #d81b60;
+    border-radius: var(--radius);
+    padding-top: var(--padding);
+    grid-area: content2;
+  }
+  
+  #content3 {
+    background: #b31077;
+    border-radius: var(--radius);
+    padding-top: var(--padding);
+    grid-area: content3;
+  }
+  
+  #content4 {
+    background: #c51162;
+    border-radius: var(--radius);
+    padding-top: var(--padding);
+    grid-area: content4;
+  }
+  #content5 {
+    background: #bf1179;
+    border-radius: var(--radius);
+    padding-top: var(--padding);
+    grid-area: content5;
+  }
+  
+  #content6 {
+    background: #880e4f;
+    border-radius: var(--radius);
+    padding-top: var(--padding);
+    grid-area: content6;
+  }
+
+  #content7 {
+    background: #943567;
+    border-radius: var(--radius);
+    padding-top: var(--padding);
+    grid-area: content7;
+  }
+  
